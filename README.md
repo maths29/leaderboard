@@ -79,13 +79,11 @@ This is the  project Leaderboard
 
 ```
 
-```
+https://github.com/maths29/leaderboard.git
 
-2. switch to the cloned directory
 
-```
-
-```
+2. switch to cloned directory. 
+cd leaderboard/https://github.com/maths29/leaderboard
 
 ### Installation
 
@@ -114,8 +112,7 @@ To run tests, run the following command:
 ### Deployment
 
 - Project is deployed using [GitHub Pages](https://pages.github.com/)
-- 
-- [Live Demo Link]()
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
@@ -164,7 +161,7 @@ Give a ⭐️ if you like this project!
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
+I would like to thank Microverse for this opportunity.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
