@@ -12,20 +12,20 @@ const allPlayers = document.querySelector('.all-score');
 const blackboard = document.querySelector('.black-board');
 
 submitBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    if (playerName.value && playerScore.value) {
-      submitScoreToAPI(playerName.value, playerScore.value);
-      blackboard.style.border = '2px solid red';
-      form.reset();
-      setTimeout(() => {
-        blackboard.style.border = 'none';
-      }, 2000);
-    }
-  });
-  refreshBtn.addEventListener('click', () => {
-    allPlayers.innerHTML = '';
-    retrieveScoreFromAPI().then((apiReturnObject) => displayToScreen(apiReturnObject, allPlayers));
-  });
-  window.addEventListener('load', () => {
-    retrieveScoreFromAPI().then((apiReturnObject) => displayToScreen(apiReturnObject, allPlayers));
-  });
+  e.preventDefault();
+  if (playerName.value && playerScore.value) {
+    submitScoreToAPI(playerName.value, playerScore.value);
+    blackboard.style.border = '2px solid red';
+    form.reset();
+    setTimeout(() => {
+      blackboard.style.border = 'none';
+    }, 2000);
+  }
+});
+refreshBtn.addEventListener('click', () => {
+  allPlayers.innerHTML = '';
+  retrieveScoreFromAPI().then((apiReturnObject) => displayToScreen(apiReturnObject, allPlayers));
+});
+window.addEventListener('load', () => {
+  retrieveScoreFromAPI().then((apiReturnObject) => displayToScreen(apiReturnObject, allPlayers));
+});
