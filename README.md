@@ -57,7 +57,10 @@ This is the first project of Module 2
 
 > Key features of the application.
 
-- **[DynamicPage]**
+- **[Use callbacks and promises.]**
+- **[use proper ES6 syntax.]**
+- **[Use ES6 modules to write modular JavaScript.]**
+- **[Use webpack to bundle JavaScript.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
