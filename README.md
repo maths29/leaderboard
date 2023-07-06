@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <h3><b>Leaderboard</b></h3>
+  <h3><bLeaderboard</b></h3>
 
 </div>
 
@@ -32,7 +32,7 @@
 
 # 📖 [Leaderboard- HTML, CSS, JS] <a name="about-project"></a>
 
-This is the  project Leaderboard
+This is the first project of Module 2
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,7 +57,10 @@ This is the  project Leaderboard
 
 > Key features of the application.
 
-- **[DynamicPage]**
+- **[Use callbacks and promises.]**
+- **[use proper ES6 syntax.]**
+- **[Use ES6 modules to write modular JavaScript.]**
+- **[Use webpack to bundle JavaScript.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,13 +81,13 @@ This is the  project Leaderboard
 1.  Clone the Repo with:
 
 ```
-
+https://github.com/maths29/leaderboard.git
 ```
 
 2. switch to the cloned directory
 
 ```
-
+cd leaderboard/https://github.com/maths29/leaderboard
 ```
 
 ### Installation
@@ -115,7 +118,7 @@ To run tests, run the following command:
 
 - Project is deployed using [GitHub Pages](https://pages.github.com/)
 - 
-- [Live Demo Link]()
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
@@ -127,7 +130,7 @@ To run tests, run the following command:
 - Twitter: [@twitterhandle](https://twitter.com/maths29)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/iwu-john-b92b01148/ )
 
-👤 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,7 +168,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
+I would like to thank Microverse for this opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
