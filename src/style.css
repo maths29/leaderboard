@@ -4,14 +4,59 @@
 }
 
 main {
-  background-color: rgba(243, 204, 6, 0.779);
+  background-image: url('../assets/Chess.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 360px;
   width: 68%;
   margin: auto;
   padding-bottom: 65px;
+}
+
+.black-board {
+  /* background-color: rgba(14, 13, 13, 0.6); */
+  padding: 20px;
+  margin: 5%;
+
+}
+
+.recent-score {
+  font-weight: 700;
+  line-height: 156%;
+
+}
+
+.leader-area {
+ display: flex;
+}
+
+.refresh {
+  background-color: orange;
+}
+
+.title-and-refresh {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  font-weight: bolder;
+}
+
+.name-and-score-li {
+  display: flex;
+  justify-content: space-between;
+  color: aqua;
+}
+
+.add-score {
+  margin-left: 4%;
 }
 
 h1 {
