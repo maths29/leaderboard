@@ -20,17 +20,15 @@ main {
   /* background-color: rgba(14, 13, 13, 0.6); */
   padding: 20px;
   margin: 5%;
-
 }
 
 .recent-score {
   font-weight: 700;
   line-height: 156%;
-
 }
 
 .leader-area {
- display: flex;
+  display: flex;
 }
 
 .refresh {
