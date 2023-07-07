@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  background-image: url('../assets/Chess.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 68%;
+  margin: auto;
+  padding-bottom: 65px;
+}
+
+.black-board {
+  /* background-color: rgba(14, 13, 13, 0.6); */
+  padding: 20px;
+  margin: 5%;
+}
+
+.recent-score {
+  font-weight: 700;
+  line-height: 156%;
+}
+
+.leader-area {
+  display: flex;
+}
+
+.refresh {
+  background-color: orange;
+}
+
+.title-and-refresh {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  font-weight: bolder;
+}
+
+.name-and-score-li {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(201, 255, 8, 0.998);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.add-score {
+  margin-left: 4%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 55px;
+  padding-top: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec {
+  margin-top: 30px;
+}
+
+.tableTop {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  width: 90%;
+  text-align: center;
+}
+
+.scores {
+  display: flex;
+  border: 1px solid black;
+  width: 70%;
+}
+
+input {
+  padding: 7px;
+  width: 99%;
+  outline: none;
+  margin: 10px 10px 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  /* width: 100%; */
+  width: 270px;
+}
+
+.topScore {
+  display: flex;
+  gap: 45px;
+  margin-top: 30px;
+}
+
+.each-entrance1 {
+  display: flex;
+  text-decoration: none;
+  margin: 5px;
+  background-color: azure;
+}
+
+.each-entrance2 {
+  display: flex;
+  text-decoration: none;
+  margin: 5px;
+  background-color: bisque;
+}
+
+.side {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.submit-score-button-div {
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit-score-button {
+  padding: 5px;
+}
