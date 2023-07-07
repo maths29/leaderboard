@@ -117,7 +117,7 @@ To run tests, run the following command:
 ### Deployment
 
 - Project is deployed using [GitHub Pages](https://pages.github.com/)
-  
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
