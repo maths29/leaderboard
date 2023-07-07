@@ -50,7 +50,8 @@ main {
 .name-and-score-li {
   display: flex;
   justify-content: space-between;
-  color: aqua;
+  color: rgba(201, 255, 8, 0.998);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .add-score {
